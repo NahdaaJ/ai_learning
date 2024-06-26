@@ -108,7 +108,6 @@ $$
 
 $$
 \det(\mathbf{A}) = aei + bfg + cdh - ceg - bdi - afh
-
 $$
 
 ### Unit Vectors
