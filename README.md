@@ -7,7 +7,7 @@ In the [`notes`](learning_notes/) directory, you will find notes I've written on
 Here, you will find notes on:
 
 ### Mathematics
-- [`Linear Algebra`](learning_notes/numpy-pandas-learning.md)
+- [`Linear Algebra`](learning_notes/linear_algebra.md)
 
 ### Coding
 - [`Numpy and Pandas`](learning_notes/numpy-pandas-learning.md)
