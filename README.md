@@ -6,6 +6,10 @@ Welcome to my AI Learning repository! This space is dedicated to documenting my 
 In the [`notes`](learning_notes/) directory, you will find notes I've written on the coding aspect of my learning!
 Here, you will find notes on:
 
+### Mathematics
+- [`Linear Algebra`](learning_notes/numpy-pandas-learning.md)
+
+### Coding
 - [`Numpy and Pandas`](learning_notes/numpy-pandas-learning.md)
 
 You will be able to find the associated coding exercises in the similarly named directories!
