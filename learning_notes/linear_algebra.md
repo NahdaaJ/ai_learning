@@ -165,3 +165,226 @@ AKA $L^∞$ Norm. occurs frequently in Machine Learning. Returns the absolute va
 $$
 ||\mathbf{x}||_∞ = \max_i|x_i|
 $$
+
+## Matrices
+
+In machine learning, data points can be represented as matrices. For example, a data point with with $n$ features can be represented as an $n$-dimensional matrix. Each element of each row in a matrix corresponds to a feature value.
+
+Operations on matrices like scaling or combining is important for normalising data, or combining data from different sources.
+
+### Linear Transformations
+
+Linear transformations are a way to map one vector to another in such a way that the structure of the vector is maintained. 
+
+**Transformation Matrices**
+
+If $A$ is a transformation matrix and $\mathbf {v}$ is a vector, the transformation is applied by multiplying A by $\mathbf {v}$:
+
+$$
+T(\mathbf{v}) = A \mathbf{v}
+$$
+
+1. **Additivity (Preserves Addition)**
+If $T$ is a linear transformation, and $\mathbf {u}$ and $\mathbf {v}$ are vectors, then:
+    
+$$
+T(\mathbf{u}+\mathbf{v}) = T(\mathbf{u})+T(\mathbf{v})
+$$
+    
+2. **Homogeneity (Preserves Scalar Multiplication)**
+If $T$ is a transformation, and $c$ is a scalar, then:
+    
+$$
+T(c\mathbf{u}) = cT(\mathbf{u})
+$$
+    
+### Scaling
+
+Scaling stretches or shrinks vectors by a constant factor.
+
+$$
+T(\mathbf{v}) = k \begin{pmatrix}
+x \\
+y
+\end{pmatrix} = \begin{pmatrix}
+kx \\
+ky
+\end{pmatrix}
+$$
+
+### Rotation
+
+A rotation rotates vectors by a certain angle around the origin. If we rotate a vector by an angle $\theta$ , the transformation can be represented by the following matrix:
+
+$$
+T(\mathbf{v}) = \begin{pmatrix} 
+\cos \theta & -\sin \theta \\ 
+\sin \theta & \cos \theta 
+\end{pmatrix} \begin{pmatrix} 
+x \\ 
+y 
+\end{pmatrix}
+$$
+
+### Reflection
+
+Reflections flip vectors over a line or plane (2D or 3D). For example, reflecting over the x-axis:
+
+$$
+T(\mathbf{v}) = \begin{pmatrix} 
+1 & 0 \\ 
+0 & -1 
+\end{pmatrix} \begin{pmatrix} 
+x \\ 
+y 
+\end{pmatrix} = \begin{pmatrix} 
+x \\ 
+-y 
+\end{pmatrix}
+$$
+
+
+### Identity Matrix
+
+Multiplying any matrix by an identity matrix results in the original matrix. This property is akin to multiplying a number by 1. In machine learning, identity matrices are used in various operations such as scaling or transforming data without changing its content, applying certain types of regularization in algorithms like neural networks, or initializing weights in neural networks.
+
+In machine learning, diagonal matrices are used in operations like scaling features or applying different weights to different features in algorithms like linear regression or regularization techniques.
+
+$$
+\begin{bmatrix}
+1&0&0\\
+0&1&0\\
+0&0&1
+\end{bmatrix}
+$$
+
+### Diagonal Matrix
+
+Diagonal matrices are useful for scaling other matrices. When you multiply a matrix by a diagonal matrix, you scale each corresponding row of the original matrix by the diagonal elements of the diagonal matrix.
+
+$$
+\begin{bmatrix}
+2&0&0\\
+0&3&0\\
+0&0&5
+\end{bmatrix}
+$$
+
+## Matrix Formulas
+
+### Matrix Multiplication
+
+This combines two matrices to produce a new matrix. Used in neural networks to combine weights and inputs or to transform data.
+
+$$
+\mathbf{C} = \mathbf{A} \mathbf{B}, \quad c_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj}
+$$
+
+### Transpose of a Matrix
+
+This flips a matrix over its diagonal, swapping rows with columns. Used in various operations, like switching between rows and columns in data or weight matrices in machine learning models.
+
+$$
+\mathbf{A}^\top = \begin{bmatrix} 
+a_{11} & a_{21} & \cdots & a_{m1} \\ 
+a_{12} & a_{22} & \cdots & a_{m2} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+a_{1n} & a_{2n} & \cdots & a_{mn} 
+\end{bmatrix}
+$$
+
+### Determinant of a Matrix
+
+For 2x2 and 3x3 matrices. A number that helps determine if a matrix has an inverse. In machine learning, you need invertible matrices for solving certain problems, like finding exact solutions in linear regression.
+
+**For 2x2 matrix** where:
+
+$$
+\mathbf{A} = \begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+$$
+
+
+The determinent is:
+
+$$
+\det(\mathbf{A}) = ad - bc
+$$
+
+**For 3x3 matrix** where:
+
+$$
+\mathbf{A} = \begin{bmatrix} 
+a & b & c \\ 
+d & e & f \\ 
+g & h & i 
+\end{bmatrix}
+$$
+
+The determinent is:
+
+$$
+\det(\mathbf{A}) = aei + bfg + cdh - ceg - bdi - afh
+$$
+
+### Inverse of a Matrix
+
+For square matrices 
+
+$$
+\mathbf{A} = \begin{bmatrix} 
+a & b \\ 
+c & d 
+\end{bmatrix}
+$$ 
+
+where $\det(\mathbf{A}) \neq 0$. Finds a matrix that, when multiplied with the original, gives the identity matrix. Used in solving linear equations and inverting transformations, like reversing changes applied to data.
+
+$$
+\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \text{adj}(\mathbf{A})
+$$
+
+$$
+\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \begin{bmatrix} 
+d & -b \\ 
+-c & a \end{bmatrix}
+$$
+
+### Solving Linear Equations Using Matrices
+
+You can solve linear equations using matrices. Given the system of linear equations:
+
+$$
+\begin{cases}
+2x + 3y = 5 \\
+4x + 6y = 10
+\end{cases}
+$$
+
+We can represent this system using matrix notation as: 
+
+$$
+\mathbf{Ax} = \mathbf{b}
+$$
+
+Where: 
+
+$$
+\mathbf{A} = \begin{bmatrix} 
+2 & 3 \\ 
+4 & 6 
+\end{bmatrix}, \quad \mathbf{x} = \begin{bmatrix} 
+x \\ 
+y 
+\end{bmatrix}, \quad \mathbf{b} = \begin{bmatrix} 
+5 \\ 
+10 \end{bmatrix}
+$$
+
+Find the determinant of $\mathbf {A}$ to see if it can be inversed.
+
+If $\det(\mathbf {A}) = 0$, it cannot be inversed and there are no/infinite solutions. 
+
+If $\det(\mathbf {A}) ≠ 0$, multiply $\mathbf {b}\mathbf {A}^{-1}$ to find $\mathbf {x}$.
