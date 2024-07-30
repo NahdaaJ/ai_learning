@@ -91,8 +91,8 @@ Write:
 
 ```python
 my_list = [letter for letter in my_string]
-my_list = [num for num in range(1,10)
-my_list = [num*2 for num in range(1,10)
+my_list = [num for num in range(1,10)]
+my_list = [num*2 for num in range(1,10)]
 my_list = [x for x in range (0,11) if x%2 ==0)]
 fahrenheit = [(3*temp) for temp in celcius]
 ```
