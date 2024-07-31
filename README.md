@@ -2,17 +2,11 @@
 
 Welcome to my AI Learning repository! This space is dedicated to documenting my path towards becoming an AI Engineer. Here, you'll find a collection of coding exercises, projects, and notes that I've accumulated throughout my learning process.
 
-## Contents of the Repo 🌷
-In the [`notes`](learning_notes/) directory, you will find notes I've written on the coding aspect of my learning!
-Here, you will find notes on:
-
-### Mathematics
-- [`Linear Algebra`](learning_notes/linear_algebra.md)
-
-### Coding
-- [`Numpy and Pandas`](learning_notes/numpy-pandas-learning.md)
-
-You will be able to find the associated coding exercises in the similarly named directories!
+# Table of Contents 🌷
+🌸 <a href="#roadmap">Roadmap</a> </br>
+🌸 <a href="#contents-of-the-repo">Contents of the Repo</a> </br>
+🌸 <a href="#goals">Goals</a> </br>
+🌸 <a href="#contact">Contact</a>
 
 ## Roadmap 🌷
 Using the help of ChatGPT, I have created a roadmap to follow that will lead me into AI engineering!
@@ -91,7 +85,8 @@ Using the help of ChatGPT, I have created a roadmap to follow that will lead me 
       - Generative Adversarial Networks (GANs)
       - Autoencoders
       - Transfer Learning
-
+        
+## Contents of the Repo 🌷
 
 ## Goals 🌷
 
@@ -100,3 +95,9 @@ My primary goal is to become proficient in AI and machine learning, with a focus
 - Understanding the theoretical and mathematical theory behind ML and AI.
 - Gaining practical experience in implementing these algorithms.
 - Applying AI to solve complex, real-world problems.
+
+## Contact 🌷
+<div align="center">
+  <a href="https://www.linkedin.com/in/nahdaa-jawed/">My LinkedIn</a> <br />
+  <a href="mailto:nahdaajawed@gmail.com">nahdaajawed@gmail.com</a>
+</div>
