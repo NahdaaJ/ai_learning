@@ -15,74 +15,83 @@ Here, you will find notes on:
 You will be able to find the associated coding exercises in the similarly named directories!
 
 ## Roadmap 🌷
+Using the help of ChatGPT, I have created a roadmap to follow that will lead me into AI engineering!
+
 #### Key:
 - ~Things I have completed~
 - _Things I am currently working on_
 - Things to do
-  
-### 1. **Foundational Knowledge in AI and Machine Learning:**
 
-- **Mathematics and Statistics:**
-    - **Theory:**
-        - _Linear algebra (matrices, vectors, matrix operations)_
-        - Calculus (differentiation, integration)
-        - Probability theory (basic probability, conditional probability, Bayes' theorem)
-        - Statistics (descriptive statistics, hypothesis testing, regression analysis)
-- **Machine Learning Basics:**
-    - **Theory:**
-        - Types of machine learning (supervised, unsupervised, reinforcement learning)
-        - Supervised learning (regression, classification)
-        - Unsupervised learning (clustering, dimensionality reduction)
-        - Reinforcement learning basics (Markov Decision Processes, reward functions)
+### **1. Python Basics**
+  - ~Objects and Data Structures~
+  - ~Statements and Control Structures~
+  - _Functions_
+  - File Operations
+  - Object Oriented Programming
+  - Modules and Packages
+  - Error Handling
+    
+### **2. Machine Learning Mathematics**
+  - Linear Algebra
+      - Vectors and Matrices
+      - Eigenvalues and Eigenvectors
+      - Matrix Decomposition
+  - Calculus
+      - Derivatives
+      - Integrals
+      - Optimisation
+  - Probability and Statistics
+      - Probability
+      - Distributions
+      - Statistical Tests
+      - Descriptive Statistics
+### **3. Python For Data Science**
+  - NumPy
+      - Arrays
+      - Operations
+      - Linear Algebra
+  - Pandas
+      - DataFrames and Series
+      - Data Cleaning
+      - Data Transformation
+      - Data Aggregation
+  - Matplotlib
+      - Plotting Basics
+      - Customisation
+      - Advanced Plots
+  - Seaborn?
+      - Statistical Plots
+      - Customisation
+      - Advanced Visualisation
+### **4. Machine Learning Theory**
+  - Supervised Learning
+      - Regression
+      - Classification
+      - Evaluation Metrics
+  - Unsupervised Learning
+      - Clustering
+      - Dimensionality Reduction
+      - Association Rule
+  - Reinforcement Learning
+      - Basic
+      - Algorithms
+      - Advanced Topics
+### **5. Deep Learning Theory**
+  - Neural Networks
+      - Architecture
+      - Forward and Backward Propagatio
+      - Optimization
+  - Convolutional Neural Networks (CNNs)
+      - Layer
+      - Application
+  - Recurrent Neural Networks (RNNs)
+      - Architecture
+      - Application
+  - Advanced Topics
+      - Generative Adversarial Networks (GANs)
+      - Autoencoders
+      - Transfer Learning
 
-### 2. **Programming and Libraries:**
-
-- **Python:**
-    - **Coding:**
-        - ~Mastery beyond fundamentals (functions, classes, exception handling)~
-        - ~Efficient use of Python data structures (lists, dictionaries, tuples)~
-        - ~Knowledge of Pythonic coding style and best practices~
-- **Key Libraries:**
-    - **Coding:**
-        - _NumPy for numerical computing (arrays, matrix operations)_
-        - _pandas for data manipulation (dataframes, data cleaning)_
-        - scikit-learn for machine learning algorithms (classification, regression, clustering)
-        - TensorFlow or PyTorch for deep learning models (building, training, evaluating neural networks)
-
-### 3. **AI Tools and Frameworks:**
-
-- **TensorFlow or PyTorch:**
-    - **Coding:**
-        - Installation and setup of the chosen framework
-        - Implementation of deep learning models (CNNs, RNNs) using the framework
-        - Training models on GPUs and TPUs for accelerated performance
-- **Data Handling and Preprocessing:**
-    - **Coding:**
-        - Techniques for data cleaning (handling missing data, outlier detection)
-        - Feature engineering (creation of new features from existing data)
-        - Scaling and normalization of data for machine learning models
-
-### 4. **Advanced Topics:**
-
-- **Deep Learning:**
-    - **Theory:**
-        - Neural networks basics (perceptrons, activation functions, feedforward/backpropagation)
-        - Convolutional Neural Networks (CNNs) for image processing
-        - Recurrent Neural Networks (RNNs) for sequential data
-        - Generative Adversarial Networks (GANs) for generative tasks
-- **Natural Language Processing (NLP):**
-    - **Theory:**
-        - Text preprocessing techniques (tokenization, stemming, lemmatization)
-        - Sentiment analysis, named entity recognition, text classification
-- **Computer Vision (CV):**
-    - **Theory:**
-        - Image preprocessing (resizing, normalization)
-        - Object detection (using techniques like SSD, YOLO)
-        - Image classification (using CNNs like ResNet, VGG)
-- **Reinforcement Learning (RL):**
-    - **Theory:**
-        - RL algorithms (Q-learning, policy gradients)
-        - Markov Decision Processes (MDPs), reward functions, exploration-exploitation trade-off
 
 ## Goals 🌷
 
