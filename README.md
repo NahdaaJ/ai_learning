@@ -3,10 +3,10 @@
 Welcome to my AI Learning repository! This space is dedicated to documenting my path towards becoming an AI Engineer. Here, you'll find a collection of coding exercises, projects, and notes that I've accumulated throughout my learning process.
 
 # Table of Contents 🌷
-🌸 <a href="#roadmap">Roadmap</a> </br>
-🌸 <a href="#contents-of-the-repo">Contents of the Repo</a> </br>
-🌸 <a href="#goals">Goals</a> </br>
-🌸 <a href="#contact">Contact</a>
+🌸 <a href="#roadmap-">Roadmap</a> </br>
+🌸 <a href="#contents-of-the-repo-">Contents of the Repo</a> </br>
+🌸 <a href="#goals-">Goals</a> </br>
+🌸 <a href="#contact-">Contact</a>
 
 ## Roadmap 🌷
 Using the help of ChatGPT, I have created a roadmap to follow that will lead me into AI engineering!
