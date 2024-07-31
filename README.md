@@ -87,7 +87,11 @@ Using the help of ChatGPT, I have created a roadmap to follow that will lead me 
       - Transfer Learning
         
 ## Contents of the Repo 🌷
+The repo is structured into the different topics and sections of my roadmap. Within each topic, you’ll find associated notes, practice code and perhaps even mini projects.
 
+- [`01-python-basics`](01-python-basics/) - This contains all the Python Basics content.
+  - [`notes`](01-python-basics/notes/) - Notes from each section of my Python Basics Learning.
+  - [`practice-code`](01-python-basics/practice-code/) - Files of practice code to practice what I learnt.
 ## Goals 🌷
 
 My primary goal is to become proficient in AI and machine learning, with a focus on:
