@@ -1,12 +1,16 @@
-# AI Learning 🌸
-
+<div align="center">
+<h1>🌸 AI Learning 🌸</h1>
+</div>
+<div align="center">
+  <a href="https://www.linkedin.com/in/nahdaa-jawed/"><img src="images/pink-linkedin.png" width="30px"></a>
+  <a href="mailto:nahdaajawed@gmail.com"><img src="images/pink-email.png" width="30px"></a>
+</div>
 Welcome to my AI Learning repository! This space is dedicated to documenting my path towards becoming an AI Engineer. Here, you'll find a collection of coding exercises, projects, and notes that I've accumulated throughout my learning process.
 
-# Table of Contents 🌷
+## Table of Contents 🌷
 🌸 <a href="#roadmap-">Roadmap</a> </br>
 🌸 <a href="#contents-of-the-repo-">Contents of the Repo</a> </br>
 🌸 <a href="#goals-">Goals</a> </br>
-🌸 <a href="#contact-">Contact</a>
 
 ## Roadmap 🌷
 Using the help of ChatGPT, I have created a roadmap to follow that will lead me into AI engineering!
@@ -100,8 +104,7 @@ My primary goal is to become proficient in AI and machine learning, with a focus
 - Gaining practical experience in implementing these algorithms.
 - Applying AI to solve complex, real-world problems.
 
-## Contact 🌷
 <div align="center">
-  <a href="https://www.linkedin.com/in/nahdaa-jawed/">My LinkedIn</a> <br />
-  <a href="mailto:nahdaajawed@gmail.com">nahdaajawed@gmail.com</a>
+  <a href="https://www.linkedin.com/in/nahdaa-jawed/"><img src="images/pink-linkedin.png" width="40px"></a>
+  <a href="mailto:nahdaajawed@gmail.com"><img src="images/pink-email.png" width="40px"></a>
 </div>
