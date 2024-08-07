@@ -45,15 +45,37 @@ def view_contacts():
     main_menu()
     
 def add_contacts():
-    print("Adding....")
+    name = input ("\nPlease enter the name of the contact: ").title()
+    number = input("Please enter the persons phone number: ")
+    
+    print(f"\n{name}: {number}")    
+    confirmation = ""
+    while (confirmation != "y" or confirmation != "n"):
+        confirmation = input("\nAre these details correct? (Y / N) ").lower()
+        
+        if (confirmation =="y"):
+            contacts[name] = number
+            break
+        elif (confirmation == "n"):
+            add_contacts()
+        else:
+            print("Please enter Y or N.\n")
+            
+    add_another = ""
+    while (add_another != "y" or add_another != "n"):
+        add_another = input("Would you like to add another contact? (Y / N) ").lower()
+        
+        if (add_another =="y"):
+            add_contacts()
+        elif (add_another =="n"):
+            input("\nPress enter to return to main menu.")        
+            main_menu()
+        else: 
+            print("Please enter Y or N.\n")   
     
 def delete_contacts():
     print("Deleting....")
 
 
-contacts = {
-    "nahdaa": 12341234432,
-    "john": 33453453,
-    "sara": 29342394
-    }
+contacts = {}
 main_menu()
