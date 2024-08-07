@@ -23,8 +23,8 @@ Using the help of ChatGPT, I have created a roadmap to follow that will lead me 
 ### **1. Python Basics**
   - ~Objects and Data Structures~
   - ~Statements and Control Structures~
-  - _Functions_
-  - File Operations
+  - ~Functions~
+  - _File Operations_
   - Object Oriented Programming
   - Modules and Packages
   - Error Handling
@@ -96,6 +96,8 @@ The repo is structured into the different topics and sections of my roadmap. Wit
 - [`01-python-basics`](01-python-basics/) - This contains all the Python Basics content.
   - [`notes`](01-python-basics/notes/) - Notes from each section of my Python Basics Learning.
   - [`practice-code`](01-python-basics/practice-code/) - Files of practice code to practice what I learnt.
+  - [`projects`](01-python-basics/projects/) - Mini projects used to cement my learning.
+
 ## Goals 🌷
 
 My primary goal is to become proficient in AI and machine learning, with a focus on:
