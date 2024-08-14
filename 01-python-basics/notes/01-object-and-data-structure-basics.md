@@ -69,6 +69,9 @@ my_dictionary = {'key1' : 'value1', 'key2' : 3 }
 | Retrieve All Keys | `my_dict.keys()` | Returns a list of keys. |
 | Retrieve All Values | `my_dict.keys()` | Returns a list of values. |
 | Retrieve Items | `my_dict.items()` | Returns all the key value pairs inside of the dictionary. |
+| Add key value pair to dictionary | `my_dict[new_key] = new value` | Adds the new key value pair to the dictionary. |
+| Display dictionary items | `for key, value in my_dict.items():` | Use a for loop to iterate through the items in the dictionary. |
+| Delete Key Value pair from dictionary | `del my_dict[key]` | Used to delete a key value pair from a dictionary. |
 
 ## Tuples
 
