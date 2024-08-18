@@ -39,7 +39,21 @@ def view_contacts():
             contacts.append(row)
             
     return contacts
-        
+
+def search_contacts(name):
+    contacts = view_contacts()
+    contact_found = False
+    contact_info = []
+    
+    for row in contacts:
+        for key, value in row.items():
+            contact_found = value == name
+            if contact_found:
+                contact_info.append(row)
+                break
+            
+    return contact_info   
+    
 def main_menu():
     menu_input = ""
     
@@ -56,7 +70,19 @@ def main_menu():
         menu_input = validate_input("\nPlease enter a valid number (1-5).", "1", "2", "3", "4", "5")
         
         if (menu_input == "1"):
-            print("Searching..")
+            search_input = input("Please enter the contact you want to search: ").lower().strip()
+            
+            search_result = search_contacts(search_input)
+            
+            if search_result == []:
+                print("\nContact not found.")
+            else:
+                print(f"\n{len(search_result)} search result(s) found.\n")
+                for row in search_result:
+                    for key, value in row.items():
+                         print(f"{key}: {value.title()}")
+                    print("\n")
+            input("Press enter to return to main menu.")
             
         elif (menu_input == "2"):
             print("\n")
